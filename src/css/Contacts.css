@@ -1,0 +1,79 @@
+
+@media (max-width: 425px) {
+    .contacts-container {
+      font-size: 0.9rem;
+    }
+  
+    .brand-title {
+      font-size: 1.2rem;
+    }
+  
+    .contact-item {
+      padding: 1rem;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .contact-avatar img {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+  
+    .contact-name {
+      font-size: 0.9rem;
+    }
+  
+    .current-user-avatar img {
+      height: 3rem;
+      width: 3rem;
+    }
+  
+    .current-user-name {
+      font-size: 1rem;
+    }
+  
+    .contacts-section {
+      max-height: calc(100vh - 130px);
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .contacts-container {
+      font-size: 0.8rem;
+    }
+  
+    .brand-title {
+      font-size: 1rem;
+    }
+  
+    .contact-item {
+      padding: 0.8rem;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .contact-avatar img {
+      height: 2.2rem;
+      width: 2.2rem;
+    }
+  
+    .contact-name {
+      font-size: 0.8rem;
+    }
+  
+    .current-user-avatar img {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+  
+    .current-user-name {
+      font-size: 0.9rem;
+    }
+  
+    .contacts-section {
+      max-height: calc(100vh - 110px);
+    }
+  }
+  
+  
+    

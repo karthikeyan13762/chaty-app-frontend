@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { ToastContainer, toast } from "react-toastify";
 import { registerRoute } from "../utils/APIRoutes";
 import axios from "axios";
-
+import "../css/Register.css";
 function Register() {
   const navigate = useNavigate();
   const [values, setValues] = useState({

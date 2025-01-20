@@ -1,0 +1,28 @@
+
+@media (max-width: 425px) {
+    .welcome-container {
+      padding: 0.8rem;
+    }
+  
+    .welcome-container h1 {
+      font-size: 1.8rem;
+    }
+  
+    .welcome-container h3 {
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .welcome-container {
+      padding: 0.6rem;
+    }
+  
+    .welcome-container h1 {
+      font-size: 1.6rem;
+    }
+  
+    .welcome-container h3 {
+      font-size: 1rem;
+    }
+  }

@@ -1,0 +1,65 @@
+
+@media (max-width: 425px) {
+    .chat-input-container {
+      padding: 0.8rem; 
+    }
+  
+    .emoji-picker-button {
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 0.9rem; 
+    }
+  
+    .emoji-picker {
+      top: -400px; 
+      width: 95%; 
+      left: 2.5%; 
+    }
+  
+    .chat-input-form {
+      flex-direction: column; 
+      align-items: stretch;
+    }
+  
+    .chat-input {
+      height: 2.5rem; 
+      font-size: 0.85rem; 
+      margin-bottom: 0.5rem; 
+    }
+  
+    .send-button {
+      width: 2.5rem;
+      height: 2.5rem; 
+      font-size: 0.85rem;
+    }
+  }
+  
+ 
+  @media (max-width: 375px) {
+    .chat-input-container {
+      padding: 0.5rem; 
+    }
+  
+    .emoji-picker-button {
+      width: 2.2rem;
+      height: 2.2rem; 
+      font-size: 0.8rem;
+    }
+  
+    .emoji-picker {
+      top: -350px;
+      width: 90%; 
+      left: 5%; 
+    }
+  
+    .chat-input {
+      height: 2rem; 
+      font-size: 0.8rem; 
+    }
+  
+    .send-button {
+      width: 2.2rem;
+      height: 2.2rem; 
+      font-size: 0.8rem;
+    }
+  }

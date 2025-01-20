@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { logoutRoute } from "../utils/APIRoutes";
-
+import "../css/Logout.css";
 export default function Logout() {
   const navigate = useNavigate();
 

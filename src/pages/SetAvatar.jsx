@@ -5,7 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import { setAvatarRoute } from "../utils/APIRoutes";
 import { Buffer } from "buffer";
 import axios from "axios";
-
+import "../css/SetAvatar.css";
 function SetAvatar() {
   const api = `https://api.multiavatar.com/4644545`;
   const navigate = useNavigate();

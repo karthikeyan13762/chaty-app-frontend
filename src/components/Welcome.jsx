@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import "../css/Welcome.css";
 export default function Welcome({ currentUser }) {
   const [userName, setUserName] = useState("");
 

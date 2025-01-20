@@ -5,7 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { loginRoute } from "../utils/APIRoutes";
 import axios from "axios";
-
+import "../css/Login.css";
 function Login() {
   const navigate = useNavigate();
   const [values, setValues] = useState({

@@ -1,6 +1,6 @@
 // -------------------------------
 import React, { useState, useEffect } from "react";
-
+import "../css/Contacts.css";
 export default function Contacts({ contacts, changeChat }) {
   const [currentUserName, setCurrentUserName] = useState(undefined);
   const [currentUserImage, setCurrentUserImage] = useState(undefined);
